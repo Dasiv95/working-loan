@@ -1,0 +1,20 @@
+curl --location --request POST 'http://localhost:8080/kinesisProducer' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "facility": {
+        "entityCIF": "c20002",
+        "lineAmount": 2400003,
+        "commitmentType": "Revolving",
+        "commitmentAmount": 120000,
+        "feeAmount": 12000,
+        "feeType": "84-03",
+        "productCode": "106",
+        "facilityType": "UNL",
+        "currency": "CAD",
+        "maturityDate": "2012-04-23T18:25:43.511Z",
+        "effectiveDate": "2012-04-23T18:25:43.511Z",
+        "FDICCode": "921",
+        "proposedCRR": "9",
+        "sublimitAmount": 60000
+    }
+}'

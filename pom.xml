@@ -17,6 +17,7 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR7</spring-cloud.version>
 		<spring-cloud-stream-kinesis-binder.version>2.0.2.RELEASE</spring-cloud-stream-kinesis-binder.version>
+		<wrapper.version>1.0.17.RELEASE</wrapper.version>
 	</properties>
 	<dependencies>
 		<dependency>
